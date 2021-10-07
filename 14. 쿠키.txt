@@ -1,0 +1,11 @@
++++++++++++++
+브라우저가 서버로 데이터를 전송(Request)
+(요청을 할때 마다 서버로 Request Header에 담아서 전송)
+
+javax.servlet.http.Cookie
+Cookie 클래스
+    Cookie(String name, String value) -> 인스턴스 만들어서 등록
+
+
+**add (쿠키추가)가 response인 이유
+서버가 응답할때마다 등록하기 때문에**
