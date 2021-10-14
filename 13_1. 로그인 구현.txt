@@ -11,6 +11,7 @@
 	- 유의점 - 정적자원은 제외 
 	
 	
+<<<<<<< HEAD
 	http://localhost:8080/Login/member/join
 
 컨트롤러 - 라우팅 역할
@@ -128,3 +129,6 @@ web.xml - 서블릿 URL 설정
 
 
 			
+=======
+	http://localhost:8080/Login/member/join
+>>>>>>> 0ef13dda6606b3caf5cb54e9b07bce064a6b0af7

@@ -18,8 +18,11 @@
     model.dtd.Board -> 자바빈클래스
     model.dao.BoardDAO -> 작성, 조회, 삭제
     
+<<<<<<< HEAD
 
     
 
    
 getServletContext().getRealPath() // webapp에 파일을 올려줌
+=======
+>>>>>>> 0ef13dda6606b3caf5cb54e9b07bce064a6b0af7
