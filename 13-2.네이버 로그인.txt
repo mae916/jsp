@@ -10,7 +10,10 @@
    Client Secret - y6Ha_oXowD
    Callback URL - http://localhost:8080/LoginSns2/naverlogin
 
-
+   3)
+   Client ID - TXG0agd1iDleCmQAaoXh
+   Client Secret - vJHgkgLGWc
+   Callback URL - http://localhost:8080/LoginSns2/naverlogin
 
    
 2. 네이버 로그인 요청 절차
