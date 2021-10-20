@@ -1,0 +1,40 @@
+1
+page - errorpage -> 오류발생 -> 이동할 페이지
+     - isErrorPage -> true -> Throwable exception 인스턴스가 내장객체로 생성
+
+2. web.xml
+    에러코드
+    에러타입
+
+    <error-page>
+        <error-code></error-code>
+        <location>에러 발생시 이동 URL</location>
+    </error-page>
+
+    <error-page>
+        <exception-type>java.lang.NullPointException</exception-type>
+        <location>...</location>
+    </error-page>
+
+    3. try ~ catch
+    try(리소스(close - 자동(AutoClosable 인터페이스))){
+        예외가 발생할지도 모르는 구간
+        throw 예외 인스턴스
+    } catch (Exception ... 인스턴스) {
+        예외가 발생하면 유입되는 구간
+    } finally {
+        예외가 발생하든 안하든 항상 실행되는 구간
+    }
+
+
+    374P
+
+    RequestDispatcher 를 사용해서 에러 페이지로 이동
+        - forward
+        - include
+
+    액션태그 jsp 에서.. 위와 동일
+    <jsp:forward page="..."/>
+    <jsp:include page="..."/>
+
+    
