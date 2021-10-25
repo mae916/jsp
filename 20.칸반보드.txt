@@ -1,0 +1,21 @@
+URL 
+1. /kanban/work - 작업 목록(준비중, 진행중, 완료)
+2. /kanban/add - 작업 등록
+3. /kanban/edit - 작업 수정
+4. /kanban/remove  - 작업 삭제
+
+java.util.StringTokenizer
+
+11/12 - 오후2 - 금
+
+/member 
+		/join  - 회원가입
+		/info - 회원정보 수정
+		/login - 로그인
+		/findid - 아이디 찾기
+		/findpw - 비밀번호 찾기
+		
+		
+		내일 부터 
+		오전 -> JSP 
+		오후 - vue.js  - node.js - 하이브리드 앱 - 자바스크립트(+제이쿼리)
