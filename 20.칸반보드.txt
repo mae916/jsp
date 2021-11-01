@@ -1,3 +1,9 @@
+client id - T7b64kztqhjTWYeSlpga
+client secret - ecuRc9TkBR
+callbackURL - http://localhost:8080/Kanban/member/naver_login
+
+
+
 URL 
 1. /kanban/work - 작업 목록(준비중, 진행중, 완료)
 2. /kanban/add - 작업 등록
